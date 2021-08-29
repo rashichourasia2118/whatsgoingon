@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsGoingOn Design Components</title>
+    <link class="stylesheet" rel="stylesheet" href="css/style1.css">
+    <link class="stylesheet" rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/1a3ce4d34e.js"></script>
+</head>
+
+<body>
+    <div class="first">
+        <h1> <a href="index.html">WhatsGoingOn Design Components</a> </h1>
+        <div class="search">
+            <input type="search" id="search" placeholder="search here">
+            <input type="submit" value="search" class="but">
+        </div>
+    </div>
+    <aside class="">
+        <div class="nav-links">
+            <div class="main">
+                <div class="box">
+                    <input type="checkbox" name="" id="">
+                    <p>Components</p>
+                    <i class="fa fa-caret-down"></i>
+                    <div class="content">
+                        <a href="index.html">Overview</a>
+                        <a href="accordion.html">Accordion</a>
+                        <a href="#">Breadcrumb</a>
+                        <a href="button.html">Button</a>
+                        <a href="checkbox.html">Checkbox</a>
+                        <a href="#">Code Snippet</a>
+                        <a href="#">Content Switcher</a>
+                        <a href="#">Data table</a>
+                        <a href="#">Data picker</a>
+                        <a href="dropdown.html">Dropdown</a>
+                        <a href="#">Form</a>
+                        <a href="#">File uploader</a>
+                        <a href="#">Inline Loading</a>
+                        <a href="#">Link</a>
+                        <a href="list.html">List</a>
+                        <a href="#">Loading</a>
+                        <a href="#">Modal</a>
+                        <a href="#">notification</a>
+                        <a href="#">Number input</a>
+                        <a href="#">Overflow menu</a>
+                        <a href="#">Pagination</a>
+                        <a href="#">Progress Indicator</a>
+                        <a href="#">Radio button</a>
+                        <a href="#">search</a>
+                        <a href="select.html">select</a>
+                        <a href="#">Slider</a>
+                        <a href="#">Structured list</a>
+                        <a href="#">Tabs</a>
+                        <a href="#">Tag</a>
+                        <a href="textinput.html">Text input</a>
+                        <a href="#">Tile</a>
+                        <a href="#">Toggle</a>
+                        <a href="#">Tooltip</a>
+                        <a href="#">UI shell header</a>
+                        <a href="#">UI Shell right panel</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <div class="right">
+        <div class="top">
+            <h1>Overview</h1>
+        </div>
+        <section>
+            <div class="content content-1" id="demo">
+                <div class="title"></div>
+                <p>Components are one of the key building blocks of the design system. Their systematic reuse helps to
+                    create visual and functional consistency across products.</p>
+                <br>
+                <div class="title">Components</div>
+                <p>Each component has been designed and coded to solve a specific UI problem, such as presenting a list
+                    of options, enabling submission of a form, providing feedback to the user, and so on. All of the
+                    components in Carbon have been designed to work harmoniously together, as parts of a greater whole.
+                </p>
+                <br>
+                <div class="title">Components</div>
+                <br>
+                <br>
+                <div class="title">Accordion</div>
+                <div class="accordion-menu">
+                    <ul>
+                        <li>
+                            <input type="checkbox" checked>
+                            <i class="arrow"></i>
+                            <h2>Demo accordion</h2>
+                            <p> <a href="#">Title 1</a> </p>
+                            <p> <a href="#">Title 2</a> </p>
+
+
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="title">Button</div>
+                <br>
+                <button type="submit" class="btn"> <a href="button.html"> Button</a></button>
+                <br>
+                <div class="title">Dropdown</div>
+                <br>
+                <br>
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="title">Text input</div>
+                <div class="text">
+                    name: <input type="text" class="input">
+                    email: <input type="email" class="input">
+                </div>
+                <br>
+                <div class="title">List Demo</div>
+                <div class="list">
+                    <ul>
+                        <li>List 1</li>
+                        <li>List 2</li>
+                        <li>List 3</li>
+                        <li>List 4</li>
+                    </ul>
+                </div>
+                <br>
+                <div class="title">Select Demo</div>
+                <div class="container1">
+                    <div class="form-group">
+                        <label for="category"><b style="font-size: 20px;margin:10px;">Select Category</b></label>
+                        <select onchange="selectCategory()" name="category" id="homePageCategorySelection"
+                            class="form-control" id="category">
+                            <option>All Categories</option>
+                            <option><a href="">Vehicles</a></option>
+                            <option><a href="">Electronics and home Appliances</a></option>
+                            <option><a href="">Furnitue,Home And Decoration</a></option>
+                            <option><a href="">Fashion And Beauty</a></option>
+                            <option><a href="">Books Sports And Hobbies</a></option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="title">CheckBox</div>
+                <form>
+                    <div>
+                        <label class="container1">Keep me signed in
+                            <input type="checkbox" id="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container1">Remember me
+                            <input type="checkbox" id="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+
+        <script src="../actionSpace_wip_lab\function\createEntity.js"></script>
+        <scrip src="../actionSpace_wip_lab\function\actionEngine.js">
+            </script>
+            <script src="../actionSpace_wip_lab\function\actionEntity.js"></script>
+            <script src="../actionSpace_wip_lab\function\operate.js"></script>
+            <script src="../actionSpace_wip_lab\function\importexport\copyAs.js"></script>
+            <script src="../actionSpace_wip_lab\function\importexport\css2json.js"></script>
+            <script src="../actionSpace_wip_lab\function\importexport\json2css.js"></script>
+            <script src="../actionSpace_wip_lab\function\importexport\json2html.js"></script>
+            <script src="../actionSpace_wip_lab\function\importexport\html2json.js"></script>
+
+
+
+</body>
+
+</html>
